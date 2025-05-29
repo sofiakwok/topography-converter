@@ -25,7 +25,7 @@ if __name__ == "__main__":
     stl_file = "path/to/your/model.stl"
     dxf_file = "path/to/your/model.dxf"
 
-    # touchterrain (for non-bathymetry high resolution STLs): https://touchterrain.geol.iastate.edu/
+    # data source: touchterrain (for non-bathymetry high resolution STLs): https://touchterrain.geol.iastate.edu/
 
     try:
         stl_to_dxf(stl_file, dxf_file)
